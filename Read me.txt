@@ -1,0 +1,11 @@
+Getting and Cleaning Data
+Programming Assignment
+
+This Repository contains the R code to tidy up data taken from the 
+web page http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+
+The files contained in this repository are the followings:
+
+CodeBook.txt: text file explaining all the variables used to tidy up the data
+
+run_analysis.R: R code that takes the messy data, process it, and retur a tidy data.

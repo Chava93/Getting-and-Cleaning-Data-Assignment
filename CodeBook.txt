@@ -1,0 +1,24 @@
+Code Book
+
+Introduction
+
+The run_analysis.R script is made to perform the following steps:
+ 	1.-Looks into the project files and merges the training and the test sets to create one data set.
+	2.- Extracts only the measurements on the mean and standard deviation for each measurement. 
+	3.-Uses descriptive activity names to name the activities in the activity_labels data set file.
+	4.-Appropriately labels the data set with descriptive variable names. 
+Variables
+labels: store the levels "WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+"
+features: store the variables of the Dataset
+x_test,y_test,subject_train, subject_test, x_train and y_train store the variables in the train and test datasets
+totalSubject: stores the values for each of the subjects
+total_x,total_y: merge the values of x_test,y_test,x_train and y_train
+total_bind: stores the complete data set that joins the train and test datasets
+x: looks for the observations in the feautures dataset that fulfill the requirements
+Data: select the columns of total_bind that fulfill x requirements
